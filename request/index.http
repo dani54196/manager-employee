@@ -1,0 +1,7 @@
+@host = http://localhost
+@port = 3500
+@api = {{host}}:{{port}}
+### index
+GET {{api}}/
+### get all users
+GET {{api}}/user
